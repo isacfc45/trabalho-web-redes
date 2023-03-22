@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #f2f2f2;
+}
+
+.p-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  background-image: url(assets/back.avif);
+  background-size: cover;
+  background-position: center center;
+  // background-color: var(--green-500);
+  color: #fff;
+}
+
+.name{
+  font-size: 48px;
+}
+
+.p-button{
+  margin-left: 10px;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  // background-color: #e6e6e6;
+  // background: linear-gradient(90deg, #f3f3f3 40%, #e6e6e6 67%);
+  background-image: url(assets/back4);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  // background-position: 0rem 20rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.content{
+  max-width: 50%;
+  overflow: auto;
+}
+
+i{
+  margin-right: 10px;
+}
+
+.title{
+  font-size: 36px;
+  color: #011222;
+}
+
+p{
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.p-button{
+  background-color: #f2f2f2;
+  color: #011222;
+}
+
+.p-button:hover{
+  background-color: black;
+}
