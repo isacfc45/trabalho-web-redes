@@ -9,3 +9,21 @@ section{
   max-width: 50%;
 
 }
+
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.p-button{
+  background-color: var(--primary-color);
+  color: #fff;
+}
